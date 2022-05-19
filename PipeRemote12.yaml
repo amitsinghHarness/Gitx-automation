@@ -8,7 +8,7 @@ pipeline:
         - stage:
               name: H1
               identifier: H1
-              description: ""
+              description: "hello harness"
               type: Approval
               spec:
                   execution:
