@@ -1,0 +1,37 @@
+pipeline:
+    name: PipeRemote
+    identifier: PipeRemote
+    projectIdentifier: TestAmit
+    orgIdentifier: default
+    tags: {}
+    stages:
+        - stage:
+              name: H1
+              identifier: H1
+              description: ""
+              type: Approval
+              spec:
+                  execution:
+                      steps:
+                          - step:
+                                name: Ap2
+                                identifier: Ap2
+                                type: HarnessApproval
+                                timeout: 1d
+                                spec:
+                                    approvalMessage: |-
+                                        Please review the following information
+                                        and approve the pipeline progression
+                                    includePipelineExecutionHistory: true
+                                    approvers:
+                                        minimumCount: 1
+                                        disallowPipelineExecutor: false
+                                        userGroups: <+input>
+                                    approverInputs: []
+              tags: {}
+              failureStrategies:
+                  - onFailure:
+                        errors:
+                            - AllErrors
+                        action:
+                            type: MarkAsSuccess
