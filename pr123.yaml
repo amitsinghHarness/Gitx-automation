@@ -8,7 +8,7 @@ pipeline:
         - stage:
               name: a1
               identifier: a1
-              description: ""
+              description: "hello123"
               type: Approval
               spec:
                   execution:
