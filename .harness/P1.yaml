@@ -7,7 +7,7 @@ pipeline:
     stages:
         - stage:
               name: A1
-              identifier: A1
+              identifier:A1
               description: "dvcxvcv"
               type: Approval
               spec:
