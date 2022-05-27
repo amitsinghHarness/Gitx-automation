@@ -1,0 +1,12 @@
+connector:
+  name: Dr
+  identifier: Dr
+  description:
+  orgIdentifier: default
+  projectIdentifier: AmitOldFlow
+  type: DockerRegistry
+  spec:
+    dockerRegistryUrl: abc
+    providerType: DockerHub
+    auth:
+      type: Anonymous
