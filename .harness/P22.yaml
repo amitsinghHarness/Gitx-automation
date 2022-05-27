@@ -8,7 +8,7 @@ pipeline:
         - stage:
               name: A3
               identifier: A3
-              description: ""
+              description: cxc
               type: Approval
               spec:
                   execution:
@@ -35,3 +35,5 @@ pipeline:
                             - AllErrors
                         action:
                             type: MarkAsSuccess
+    connectorRef: ""
+    filePath: P22.yaml
