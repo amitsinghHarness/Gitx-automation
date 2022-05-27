@@ -18,7 +18,5 @@ connector:
       type: Token
       spec:
         tokenRef: S12
-    delegateSelectors:
-    - delegate-to-use
-    executeOnDelegate: true
+    executeOnDelegate: false
     type: Repo
