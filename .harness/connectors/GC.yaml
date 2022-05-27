@@ -6,7 +6,7 @@ connector:
   projectIdentifier: AmitOldFlow
   type: Github
   spec:
-    url: https://github.com/harness-automation/Gitx-automation.git
+    url: https://github.com/harness-automation/Gitx-automation
     authentication:
       type: Http
       spec:
