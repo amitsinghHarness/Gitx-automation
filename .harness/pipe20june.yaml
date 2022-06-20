@@ -46,7 +46,7 @@ pipeline:
                                         type: Inline
                                         spec:
                                             script: |-
-                                                echo "done"
+                                                echo "doneq"
                                                 exit 0
                                     environmentVariables: []
                                     outputVariables: []
