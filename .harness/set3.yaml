@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "set3"
+  pipeline:
+    identifier: "pipe321"
+    stages:
+    - stage:
+        identifier: "A3"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "A4"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.viewer"
+  name: "set3"
+  orgIdentifier: "default"
+  projectIdentifier: "AmitTest"
