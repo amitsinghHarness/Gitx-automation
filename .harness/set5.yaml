@@ -1,5 +1,9 @@
 inputSet:
   identifier: "set5"
+  name: "set5"
+  tags: {}
+  orgIdentifier: "default"
+  projectIdentifier: "AmitTest"
   pipeline:
     identifier: "pipe321"
     stages:
@@ -16,6 +20,3 @@ inputSet:
                   approvers:
                     userGroups:
                     - "account.viewer"
-  name: "set5"
-  orgIdentifier: "default"
-  projectIdentifier: "AmitTest"
