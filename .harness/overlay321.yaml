@@ -1,0 +1,10 @@
+overlayInputSet:
+    name: overlay321
+    identifier: overlay321
+    orgIdentifier: default
+    projectIdentifier: AmitTest
+    pipelineIdentifier: pipe321
+    inputSetReferences:
+        - set1
+        - set2
+    tags: {}
