@@ -7,3 +7,4 @@ overlayInputSet:
     pipelineIdentifier: pipe321
     inputSetReferences:
         - set1
+        - set2
