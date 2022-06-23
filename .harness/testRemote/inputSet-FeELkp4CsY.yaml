@@ -1,6 +1,6 @@
 inputSet:
   identifier: "gitXInputSettSRAn"
-  name: "gitXInputSettSRAn"
+  name: "gitXInputSetDim"
   orgIdentifier: "default"
   projectIdentifier: "Github_Connector_pipeline"
   pipeline:
