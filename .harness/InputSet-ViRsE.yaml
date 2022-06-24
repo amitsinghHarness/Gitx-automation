@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-ViRsE
+  identifier: over-InputSet-ViRsE
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineN15xO
+  inputSetReferences:
+    - InputSet-ViRsE
+  tags: {}
