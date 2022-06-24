@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "InputSet-YhAVa"
+  name: "InputSet-YhAVa"
+  orgIdentifier: "default"
+  projectIdentifier: "Github_Connector_pipeline"
+  pipeline:
+    identifier: "pipelinezD5Hm"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.testX"
