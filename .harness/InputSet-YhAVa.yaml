@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-YhAVa
+  identifier: over-InputSet-YhAVa
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinezD5Hm
+  inputSetReferences:
+    - InputSet-YhAVa
+  tags: {}
