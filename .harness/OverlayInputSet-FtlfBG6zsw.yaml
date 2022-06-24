@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-gitXInputSetZg5Ai
+  identifier: over-gitXInputSetZg5Ai
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineoIhlt
+  inputSetReferences:
+    - gitXInputSetZg5Ai
+  tags: {}
