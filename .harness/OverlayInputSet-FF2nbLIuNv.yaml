@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over - gitXInputSet5Y40j
+  identifier: over - gitXInputSet5Y40j
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineDH24u
+  inputSetReferences:
+    - gitXInputSet5Y40j
+  tags: {}
