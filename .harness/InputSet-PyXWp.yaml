@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-PyXWp
+  identifier: over-InputSet-PyXWp
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineFsRRD
+  inputSetReferences:
+    - InputSet-PyXWp
+  tags: {}
