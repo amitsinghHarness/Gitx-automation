@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over - gitXInputSetbWSEE
+  identifier: over - gitXInputSetbWSEE
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineeQsA1
+  inputSetReferences:
+    - gitXInputSetbWSEE
+  tags: {}
