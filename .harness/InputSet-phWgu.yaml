@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-phWgu
+  identifier: over-InputSet-phWgu
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineRzars
+  inputSetReferences:
+    - InputSet-phWgu
+  tags: {}
