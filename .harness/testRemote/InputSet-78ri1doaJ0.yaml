@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "InputSet-1njqe"
+  name: "InputSet-1njqe"
+  orgIdentifier: "default"
+  projectIdentifier: "Github_Connector_pipeline"
+  pipeline:
+    identifier: "pipelinezu6Ud"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.testX"
