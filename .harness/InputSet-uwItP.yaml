@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-uwItP
+  identifier: over-InputSet-uwItP
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinek7CKl
+  inputSetReferences:
+    - InputSet-uwItP
+  tags: {}
