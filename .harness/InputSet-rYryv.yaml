@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-rYryv
+  identifier: over-InputSet-rYryv
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipeline7YqzQ
+  inputSetReferences:
+    - InputSet-rYryv
+  tags: {}
