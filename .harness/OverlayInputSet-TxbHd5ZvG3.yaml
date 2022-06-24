@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over - gitXInputSetXlluE
+  identifier: over - gitXInputSetXlluE
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinefTovd
+  inputSetReferences:
+    - gitXInputSetXlluE
+  tags: {}
