@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-JqBXr
+  identifier: over-InputSet-JqBXr
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineBFPDY
+  inputSetReferences:
+    - InputSet-JqBXr
+  tags: {}
