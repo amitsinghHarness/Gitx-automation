@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-kZT8E
+  identifier: over-InputSet-kZT8E
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineo5JFb
+  inputSetReferences:
+    - InputSet-kZT8E
+  tags: {}
