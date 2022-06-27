@@ -1,9 +1,10 @@
 overlayInputSet:
-  name: gitXOverlayInputSetATNCi
-  identifier: over-InputSet-1njqe
-  orgIdentifier: default
-  projectIdentifier: Github_Connector_pipeline
-  pipelineIdentifier: pipelinezu6Ud
+  name: "InputSet-1njqe"
+  identifier: "InputSet1njqe"
+  orgIdentifier: "deafult"
+  projectIdentifier: "AmitGitXExp"
+  pipelineIdentifier: "GitX_pipeline_AuLWXZ6Cyg"
   inputSetReferences:
-    - InputSet-1njqe
+  - "InputSet-1njqe"
   tags: {}
+  description: ""
