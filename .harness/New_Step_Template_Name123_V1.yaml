@@ -1,0 +1,21 @@
+template:
+    name: New Step Template Name123
+    identifier: New_Step_Template_Name123
+    versionLabel: V1
+    type: Step
+    projectIdentifier: oldExp
+    orgIdentifier: default
+    tags: {}
+    spec:
+        type: ShellScript
+        timeout: 10m
+        spec:
+            shell: Bash
+            onDelegate: true
+            source:
+                type: Inline
+                spec:
+                    script: echo amit
+            environmentVariables: []
+            outputVariables: []
+            executionTarget: {}
