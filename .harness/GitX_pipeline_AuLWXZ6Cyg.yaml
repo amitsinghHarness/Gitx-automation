@@ -1,31 +1,31 @@
 pipeline:
-    name: GitX_pipeline_AuLWXZ6Cyg
-    identifier: GitX_pipeline_AuLWXZ6Cyg
-    projectIdentifier: UIGITXAUTOMATION
-    orgIdentifier: default
-    tags: {}
-    stages:
-        - stage:
-              name: GitX_stage_QLH5awuQeh
-              identifier: GitX_stage_QLH5awuQeh
-              description: ""
-              type: Approval
+  name: "GitX_pipeline_AuLWXZ6Cyg"
+  identifier: "GitX_pipeline_AuLWXZ6Cyg"
+  projectIdentifier: "AmitGitXExp"
+  orgIdentifier: "deafult"
+  tags: {}
+  stages:
+  - stage:
+      name: "GitX_stage_QLH5awuQeh"
+      identifier: "GitX_stage_QLH5awuQeh"
+      description: ""
+      type: "Approval"
+      spec:
+        execution:
+          steps:
+          - step:
+              name: "GitX_step_k3EhrnmK3X"
+              identifier: "GitX_step_k3EhrnmK3X"
+              type: "HarnessApproval"
+              timeout: "1d"
               spec:
-                  execution:
-                      steps:
-                          - step:
-                                name: GitX_step_k3EhrnmK3X
-                                identifier: GitX_step_k3EhrnmK3X
-                                type: HarnessApproval
-                                timeout: 1d
-                                spec:
-                                    approvalMessage: |-
-                                        Please review the following information
-                                        and approve the pipeline progression
-                                    includePipelineExecutionHistory: true
-                                    approvers:
-                                        minimumCount: 1
-                                        disallowPipelineExecutor: false
-                                        userGroups: <+input>
-                                    approverInputs: []
-              tags: {}
+                approvalMessage: "Please review the following information\nand approve\
+                  \ the pipeline progression"
+                includePipelineExecutionHistory: true
+                approvers:
+                  minimumCount: 1
+                  disallowPipelineExecutor: false
+                  userGroups: "<+input>"
+                approverInputs: []
+      tags: {}
+  description: ""
