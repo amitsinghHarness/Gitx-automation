@@ -1,6 +1,8 @@
 inputSet:
   identifier: "test1"
   name: "test1"
+  tags: {}
+  description: "Description_X6MBj"
   orgIdentifier: "default"
   projectIdentifier: "AmitTest"
   pipeline:
