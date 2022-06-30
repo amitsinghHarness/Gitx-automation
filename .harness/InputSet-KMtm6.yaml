@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-KMtm6
+  identifier: over-InputSet-KMtm6
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinehEC3L
+  inputSetReferences:
+    - InputSet-KMtm6
+  tags: {}
