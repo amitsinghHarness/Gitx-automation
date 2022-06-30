@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-UjT1L
+  identifier: over-InputSet-UjT1L
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineMx392
+  inputSetReferences:
+    - InputSet-UjT1L
+  tags: {}
