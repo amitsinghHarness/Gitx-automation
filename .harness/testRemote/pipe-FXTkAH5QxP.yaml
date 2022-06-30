@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "inputSet-Wwe28uzpru"
+  name: "inputSet-Wwe28uzpru"
+  orgIdentifier: "default"
+  projectIdentifier: "Github_Repo_Level_Pipeline_Automation"
+  pipeline:
+    identifier: "pipelinef8T5aJMsrK"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.testX"
