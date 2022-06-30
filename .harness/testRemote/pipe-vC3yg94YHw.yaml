@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "inputSet-vUpNe9mRcC"
+  name: "inputSet-vUpNe9mRcC"
+  orgIdentifier: "default"
+  projectIdentifier: "Github_Repo_Level_Pipeline_Automation"
+  pipeline:
+    identifier: "pipelinef3ZJBtJ1hy"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.testX"
