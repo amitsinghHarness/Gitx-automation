@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-QyCBb
+  identifier: over-InputSet-QyCBb
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinexuJy1
+  inputSetReferences:
+    - InputSet-QyCBb
+  tags: {}
