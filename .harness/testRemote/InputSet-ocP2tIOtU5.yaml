@@ -1,0 +1,21 @@
+inputSet:
+  identifier: "InputSet-v3YBY"
+  name: "InputSet-v3YBY"
+  orgIdentifier: "default"
+  projectIdentifier: "Github_Connector_pipeline"
+  pipeline:
+    identifier: "pipelinet3BVI"
+    stages:
+    - stage:
+        identifier: "A1"
+        type: "Approval"
+        spec:
+          execution:
+            steps:
+            - step:
+                identifier: "R1"
+                type: "HarnessApproval"
+                spec:
+                  approvers:
+                    userGroups:
+                    - "account.testX"
