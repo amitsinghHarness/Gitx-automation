@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-E912u
+  identifier: over-InputSet-E912u
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinefp9fQ
+  inputSetReferences:
+    - InputSet-E912u
+  tags: {}
