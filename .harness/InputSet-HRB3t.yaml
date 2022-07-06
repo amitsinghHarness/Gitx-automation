@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-HRB3t
+  identifier: over-InputSet-HRB3t
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelineqoABr
+  inputSetReferences:
+    - InputSet-HRB3t
+  tags: {}
