@@ -8,8 +8,8 @@ pipeline:
         - stage:
               name: A1
               identifier: A1
-              description: desc_type
-              type: Approval
+              description:desc_type
+              type:Approval
               spec:
                   execution:
                       steps:
