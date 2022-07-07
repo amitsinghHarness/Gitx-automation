@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-tiZDS
+  identifier: over-InputSet-tiZDS
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipelinesEBeR
+  inputSetReferences:
+    - InputSet-tiZDS
+  tags: {}
