@@ -1,39 +1,39 @@
 pipeline:
-    name: Remote5july3
-    identifier: Remote5july3
-    projectIdentifier: AmitTest
-    orgIdentifier: default
-    tags: {}
-    stages:
-        - stage:
-              name: A1
-              identifier: A1
-              description: desc_type
-              type: Approval
+  name: "Remote5july3"
+  identifier: "Remote5july3"
+  projectIdentifier: "AmitTest"
+  orgIdentifier: "default"
+  tags: {}
+  stages:
+  - stage:
+      name: "A1"
+      identifier: "A1"
+      description: "desc_type"
+      type: "Approval"
+      spec:
+        execution:
+          steps:
+          - step:
+              name: "R1"
+              identifier: "R1"
+              type: "HarnessApproval"
+              timeout: "1d"
               spec:
-                  execution:
-                      steps:
-                          - step:
-                                name: R1
-                                identifier: R1
-                                type: HarnessApproval
-                                timeout: 1d
-                                spec:
-                                    approvalMessage: |-
-                                        Please review the following information
-                                        and approve the pipeline progression
-                                    includePipelineExecutionHistory: true
-                                    approvers:
-                                        minimumCount: <+input>
-                                        disallowPipelineExecutor: false
-                                        userGroups: <+input>
-                                    approverInputs: []
-                                when:
-                                    stageStatus: All
-                                failureStrategies:
-                                    - onFailure:
-                                          errors:
-                                              - AllErrors
-                                          action:
-                                              type: MarkAsSuccess
-              tags: {}
+                approvalMessage: "Please review the following information\nand approve\
+                  \ the pipeline progression"
+                includePipelineExecutionHistory: true
+                approvers:
+                  minimumCount: "<+input>"
+                  disallowPipelineExecutor: false
+                  userGroups: "<+input>"
+                approverInputs: []
+              when:
+                stageStatus: "All"
+              failureStrategies:
+              - onFailure:
+                  errors:
+                  - "AllErrors"
+                  action:
+                    type: "MarkAsSuccess"
+      tags: {}
+  description: ""
