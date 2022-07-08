@@ -1,0 +1,9 @@
+overlayInputSet:
+  name: over-InputSet-0fGe0
+  identifier: over-InputSet-0fGe0
+  orgIdentifier: default
+  projectIdentifier: Github_Connector_pipeline
+  pipelineIdentifier: pipeline3dwW0
+  inputSetReferences:
+    - InputSet-0fGe0
+  tags: {}
