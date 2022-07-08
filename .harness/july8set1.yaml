@@ -1,6 +1,7 @@
 inputSet:
   identifier: "july8set1"
   name: "july8set1"
+  tags: {}
   orgIdentifier: "default"
   projectIdentifier: "AmitTest"
   pipeline:
@@ -19,3 +20,4 @@ inputSet:
                   approvers:
                     userGroups:
                     - "account.viewer"
+                    - "account.PLQE"
